@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"http://127.0.0.1:8000/stock/TCS.NS/info\")",
+      "Bash(python -m json.tool)",
+      "Bash(pip install:*)",
+      "Bash(netstat -ano)",
+      "Bash(cmd //c \"taskkill /PID 53180 /F\")",
+      "Bash(cmd //c \"taskkill /F /IM python.exe\")",
+      "Bash(uvicorn app.main:app --host 127.0.0.1 --port 8000)"
+    ]
+  }
+}
