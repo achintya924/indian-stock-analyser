@@ -19,6 +19,10 @@ class ArticleOut(BaseModel):
     content: Optional[str]
     published_at: Optional[datetime]
     created_at: datetime
+    sentiment_label: Optional[str] = None
+    sentiment_score: Optional[float] = None
+    sentiment_model: Optional[str] = None
+    scored_at: Optional[datetime] = None
 
     model_config = {"from_attributes": True}
 

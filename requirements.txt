@@ -10,3 +10,7 @@ tweepy==4.15.0
 sqlalchemy[asyncio]==2.0.40
 aiosqlite==0.21.0
 apscheduler==3.11.0
+transformers==4.51.3
+torch==2.6.0
+scipy==1.15.2
+sentencepiece==0.2.0
